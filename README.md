@@ -28,7 +28,31 @@ Pandas es la librería de software libre para manipulación de datos con Python 
 - [Contenido extra](#Contenido-extra)
 
 
-### Comenzando con pandas
+## Comenzando con pandas
+### ¿Qué es pandas?
+
+[Pandas](https://pandas.pydata.org/) es una herramienta de análisis y manipulación de datos de código abierto rápida, potente, flexible y fácil de usar, construida sobre Python.
+ 
+<div align="center"> 
+  <img src="readme_img/pandas.png" width="">
+</div>
+
+Pandas significa **Pan**el **Da**ta. Los paneles de datos son estructuras simples donde se puede organizar por categorias los datos en donde podemos tener variables tipo texto, numericos o booleanos. Cuenta con un eje de filas donde los datos pueden estar organizados temporalmente. 
+
+Fue inventada en 2008 por [Wes McKinney](https://en.wikipedia.org/wiki/Wes_McKinney) como una necesidad para analizar grandes volumenes de datos en los mercados financieros.
+
+#### Ventajas
+
+- Reduce lineas de código
+- Diseñada especialmente para análisis
+- API fácil y concisa
+- Multiples funciones
+
+#### Desventajas
+
+- Compatibilidad con matrices 3 (numpy)
+- Curva de aprendizaje lenta
+
 ### Funcionalidades básicas y esenciales de pandas
 ### Aplicando pandas
 ### Contenido extra
