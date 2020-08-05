@@ -25,6 +25,7 @@ Pandas es la librería de software libre para manipulación de datos con Python 
 - [Comenzando con pandas](#Comenzando-con-pandas)
   - [¿Qué es pandas?](#¿Qué-es-pandas?)
   - [Configurando Google Colab](#Configurando-Google-Colab)
+  - [Series e Indexación y selección de datos](#Series-e-Indexación-y-selección-de-datos)
 - [Funcionalidades básicas y esenciales de pandas](#Funcionalidades-básicas-y-esenciales-de-pandas)
 - [Aplicando pandas](#Aplicando-pandas)
 - [Contenido extra](#Contenido-extra)
@@ -66,6 +67,15 @@ En esta sección se ve como configurar **Google Colaboratoty**, tambien se traba
 
 **Google Colab** te brinda una maquina virtual con 100 GB y 12 GB de RAM, estas especificaciones te permiten ejecutar codigos mas complejos en la nube. Ademas colab viene con la mayoria de librerias para el uso en ciencia de datos y machine learning.
 
+### Series e Indexación y selección de datos
+
+[Notebook de contenido](https://github.com/francomanca93/analisis-de-datos/blob/comienzo/1-Comenzando-con-pandas/2_Series.ipynb)
+
+En esta sección vemos las ventajas que tiene Pandas con series. Vemos como crear series simples y definir ciertas caracteristicas como labels, etc. 
+
+Tambien se estudia como obtener los valores de esta, como crear series con diccionarios de Python.
+
+Se finaliza la sección como trabajar con valores nulos, filtrar datos, y crear nuevas series con estos filtros. 
 
 ### Funcionalidades básicas y esenciales de pandas
 ### Aplicando pandas
