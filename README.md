@@ -27,6 +27,7 @@ Pandas es la librería de software libre para manipulación de datos con Python 
   - [Configurando Google Colab](#Configurando-Google-Colab)
   - [Series e Indexación y selección de datos](#Series-e-Indexación-y-selección-de-datos)
   - [DataFrames](#DataFrames)
+  - [Indexado y manejo de archivos CSV](#Indexado-y-manejo-de-archivos-CSV)
 - [Funcionalidades básicas y esenciales de pandas](#Funcionalidades-básicas-y-esenciales-de-pandas)
 - [Aplicando pandas](#Aplicando-pandas)
 - [Contenido extra](#Contenido-extra)
@@ -87,6 +88,15 @@ En esta sección se estudian como trabajar con Dataframes en Pandas. Se crean da
 Seguido a lo anterior se aprende como **extraer datos** del dataframe una vez lo conocemos. 
 
 Se finaliza conociendo como **filtrar nuestros datos** gracias a metodos de Pandas y operadores relacionales. Con esto podemos crear dataframe personalizados especificando que es lo que queremos del inicial.
+
+### Indexado y manejo de archivos CSV
+
+[Notebook de contenido](https://github.com/francomanca93/analisis-de-datos/blob/comienzo/1-Comenzando-con-pandas/4_Guardar_y_cargar.ipynb)
+
+
+Los que aprenderemos en esta notebook será **como conectar** nuestro ambiente de trabajo **con nuestro nube personal** de google drive, **generar** nuestro primeros **archivos en csv** y aprender a **leerlos**.
+
+Nota: **csv** es el formato universal mas simple que se usa para compartir informacion.
 
 ### Funcionalidades básicas y esenciales de pandas
 ### Aplicando pandas
