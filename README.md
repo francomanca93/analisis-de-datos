@@ -23,6 +23,8 @@ Pandas es la librería de software libre para manipulación de datos con Python 
 
 ## Tabla de contenido
 - [Comenzando con pandas](#Comenzando-con-pandas)
+  - [¿Qué es pandas?](#¿Qué-es-pandas?)
+  - [Configurando Google Colab](#Configurando-Google-Colab)
 - [Funcionalidades básicas y esenciales de pandas](#Funcionalidades-básicas-y-esenciales-de-pandas)
 - [Aplicando pandas](#Aplicando-pandas)
 - [Contenido extra](#Contenido-extra)
@@ -52,6 +54,18 @@ Fue inventada en 2008 por [Wes McKinney](https://en.wikipedia.org/wiki/Wes_McKin
 
 - Compatibilidad con matrices 3 (numpy)
 - Curva de aprendizaje lenta
+
+### Configurando Google Colab
+
+[Notebook de contenido](https://github.com/francomanca93/analisis-de-datos/blob/comienzo/1-Comenzando-con-pandas/1_Configurando_Google.ipynb)
+
+
+En esta sección se ve como configurar **Google Colaboratoty**, tambien se trabaja con operaciones básicas, variables, listas y numpy para experimentar con Colab. 
+
+**Colab** el cuál se basa en los cuadernos de Jupyter Notebook, por lo tanto la forma de trabajar es muy similar. 
+
+**Google Colab** te brinda una maquina virtual con 100 GB y 12 GB de RAM, estas especificaciones te permiten ejecutar codigos mas complejos en la nube. Ademas colab viene con la mayoria de librerias para el uso en ciencia de datos y machine learning.
+
 
 ### Funcionalidades básicas y esenciales de pandas
 ### Aplicando pandas
