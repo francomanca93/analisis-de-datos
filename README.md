@@ -26,6 +26,7 @@ Pandas es la librería de software libre para manipulación de datos con Python 
   - [¿Qué es pandas?](#¿Qué-es-pandas?)
   - [Configurando Google Colab](#Configurando-Google-Colab)
   - [Series e Indexación y selección de datos](#Series-e-Indexación-y-selección-de-datos)
+  - [DataFrames](#DataFrames)
 - [Funcionalidades básicas y esenciales de pandas](#Funcionalidades-básicas-y-esenciales-de-pandas)
 - [Aplicando pandas](#Aplicando-pandas)
 - [Contenido extra](#Contenido-extra)
@@ -76,6 +77,16 @@ En esta sección vemos las ventajas que tiene Pandas con series. Vemos como crea
 Tambien se estudia como obtener los valores de esta, como crear series con diccionarios de Python.
 
 Se finaliza la sección como trabajar con valores nulos, filtrar datos, y crear nuevas series con estos filtros. 
+
+### DataFrames
+
+[Notebook de contenido](https://github.com/francomanca93/analisis-de-datos/blob/comienzo/1-Comenzando-con-pandas/3_Dataframes.ipynb)
+
+En esta sección se estudian como trabajar con Dataframes en Pandas. Se crean dataframs a través de diccionarios de Python. Luego se estudian **métodos** que nos permite **analizar el set de datos inicialmente**. Esto nos permite conocer a nuestro DataFrame.
+
+Seguido a lo anterior se aprende como **extraer datos** del dataframe una vez lo conocemos. 
+
+Se finaliza conociendo como **filtrar nuestros datos** gracias a metodos de Pandas y operadores relacionales. Con esto podemos crear dataframe personalizados especificando que es lo que queremos del inicial.
 
 ### Funcionalidades básicas y esenciales de pandas
 ### Aplicando pandas
