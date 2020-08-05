@@ -28,6 +28,7 @@ Pandas es la librería de software libre para manipulación de datos con Python 
   - [Series e Indexación y selección de datos](#Series-e-Indexación-y-selección-de-datos)
   - [DataFrames](#DataFrames)
   - [Indexado y manejo de archivos CSV](#Indexado-y-manejo-de-archivos-CSV)
+  - [Conexión con bases de datos tipo SQL](#Conexión-con-bases-de-datos-tipo-SQL)
 - [Funcionalidades básicas y esenciales de pandas](#Funcionalidades-básicas-y-esenciales-de-pandas)
 - [Aplicando pandas](#Aplicando-pandas)
 - [Contenido extra](#Contenido-extra)
@@ -97,6 +98,14 @@ Se finaliza conociendo como **filtrar nuestros datos** gracias a metodos de Pand
 Los que aprenderemos en esta notebook será **como conectar** nuestro ambiente de trabajo **con nuestro nube personal** de google drive, **generar** nuestro primeros **archivos en csv** y aprender a **leerlos**.
 
 Nota: **csv** es el formato universal mas simple que se usa para compartir informacion.
+
+### Conexión con bases de datos tipo SQL
+
+[Notebook de contenido](https://github.com/francomanca93/analisis-de-datos/blob/comienzo/1-Comenzando-con-pandas/5_Conexi%C3%B3n_con_bases_de_datos_tipo_SQL.ipynb)
+
+En esta sección se estudia cómo usar Pandas y Python para conectarte con tu base de datos SQL. Pandas cuenta con una funcionalidad que facilita el acceso a tus bases de datos tipo SQL.
+
+Tenemos diferentes formas para conectarnos  tanto a **PostgreSQL**, **SQL Server**, **MySQL**, **Oracle**, otras.
 
 ### Funcionalidades básicas y esenciales de pandas
 ### Aplicando pandas
