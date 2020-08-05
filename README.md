@@ -29,6 +29,7 @@ Pandas es la librería de software libre para manipulación de datos con Python 
   - [DataFrames](#DataFrames)
   - [Indexado y manejo de archivos CSV](#Indexado-y-manejo-de-archivos-CSV)
   - [Conexión con bases de datos tipo SQL](#Conexión-con-bases-de-datos-tipo-SQL)
+  - [Diferentes formatos para datasets](#Diferentes-formatos-para-datasets)
 - [Funcionalidades básicas y esenciales de pandas](#Funcionalidades-básicas-y-esenciales-de-pandas)
 - [Aplicando pandas](#Aplicando-pandas)
 - [Contenido extra](#Contenido-extra)
@@ -106,6 +107,22 @@ Nota: **csv** es el formato universal mas simple que se usa para compartir infor
 En esta sección se estudia cómo usar Pandas y Python para conectarte con tu base de datos SQL. Pandas cuenta con una funcionalidad que facilita el acceso a tus bases de datos tipo SQL.
 
 Tenemos diferentes formas para conectarnos  tanto a **PostgreSQL**, **SQL Server**, **MySQL**, **Oracle**, otras.
+
+
+### Diferentes formatos para datasets
+
+[Notebook de contenido](https://github.com/francomanca93/analisis-de-datos/blob/comienzo/1-Comenzando-con-pandas/6_Diferentes_formatos_para_datasets.ipynb)
+
+En este notebook se estudia las ventajas y desventajas de trabajar con otros formatos para datasets. Como guardar nuestro dataframe utilizando otros tipos de formatos.
+
+Existen diferentes formatos, entre estos estan los siguientes:
+
+- **CSV** - Es muy versatil ya que solo tiene comas y saltos de linea.
+- **JSON** - Tiene un formato muy similar al de un diccionario de Python.
+- **Excel** - Permite guardar el archivo en formato .xls para trabajar con el en Excel o Spreadsheets.
+- **Pickle** - Permite comprimir la información, es util cuando se tienen tablas grandes.
+- **Parquet** - Permite darle un formato que puede usarse en ambientes de Big Data como Hadoop.
+
 
 ### Funcionalidades básicas y esenciales de pandas
 ### Aplicando pandas
