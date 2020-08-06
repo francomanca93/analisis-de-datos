@@ -31,6 +31,7 @@ Pandas es la librería de software libre para manipulación de datos con Python 
   - [Conexión con bases de datos tipo SQL](#Conexión-con-bases-de-datos-tipo-SQL)
   - [Diferentes formatos para datasets](#Diferentes-formatos-para-datasets)
 - [Funcionalidades básicas y esenciales de pandas](#Funcionalidades-básicas-y-esenciales-de-pandas)
+  - [Formatos de lectura para cargar y guardar DataFrames](#Formatos-de-lectura-para-cargar-y-guardar-DataFrames)
 - [Aplicando pandas](#Aplicando-pandas)
 - [Contenido extra](#Contenido-extra)
 
@@ -124,6 +125,23 @@ Existen diferentes formatos, entre estos estan los siguientes:
 - **Parquet** - Permite darle un formato que puede usarse en ambientes de Big Data como Hadoop.
 
 
-### Funcionalidades básicas y esenciales de pandas
+## Funcionalidades básicas y esenciales de pandas
+
+### Formatos de lectura para cargar y guardar DataFrames
+
+En este notebook estudiamos sobre diversos formatos de almacenamiento de datos y cómo elegir el formato eficiente que se adapte a nuestras necesidades.
+
+En la clase se preparo un [script para generar un DataFrame](https://github.com/francomanca93/analisis-de-datos/blob/funcionalidades-basicas/2-Funcionalidades-basicas-de-pandas/3_1_Save_Load_formats.ipynb) de mas de **100 mil registros** y **30 columnas** (las primeras 15 con formato numérico,las restantes tipo texto).
+
+Conclusiones:
+
+**CSV y formatos String** : Son simples, requieren alto costo computacional y algo lentos.
+
+**HDF** : Gran soporte, adecuado para grandes cantidades de datos, rápido a costo de alto costo computacional.
+
+**Parquet** : Puede igualar a hdf e inclusive trabajar por chunks y en paralelo.
+
+**Pickle** : Es práctico pero lento con grandes cantidades de datos.
+
 ### Aplicando pandas
 ### Contenido extra
