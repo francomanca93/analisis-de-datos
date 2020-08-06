@@ -32,6 +32,9 @@ Pandas es la librería de software libre para manipulación de datos con Python 
   - [Diferentes formatos para datasets](#Diferentes-formatos-para-datasets)
 - [Funcionalidades básicas y esenciales de pandas](#Funcionalidades-básicas-y-esenciales-de-pandas)
   - [Formatos de lectura para cargar y guardar DataFrames](#Formatos-de-lectura-para-cargar-y-guardar-DataFrames)
+  - [Tipos de Variables que componen un data frame](#Tipos-de-variables-que-componen-un-data-frame)
+  - [Estructuras de dataframes en detalle](#Estructuras-de-dataframes-en-detalle)
+  - [Borrar filas, columnas y copiar información](#Borrar-filas-columnas-y-copiar-información)
 - [Aplicando pandas](#Aplicando-pandas)
 - [Contenido extra](#Contenido-extra)
 
@@ -158,6 +161,14 @@ Vamos a utiilzar [Google DataSearch](https://datasetsearch.research.google.com/)
 En esta sección estudiamos en detalle las diferentes variables que podemos encontrar en un mismo dataframe. Estas pueden ser categoricas, de tiempo, tipo texto, numericos (float e int).
 
 **Una ventaja de trabajar con variables categoricas es que reducimos el tamaño de uso de la memoria RAM y el tamaño del archivo en si.**
+
+### Borrar filas, columnas y copiar información
+
+[Notebook del contenido](https://github.com/francomanca93/analisis-de-datos/blob/funcionalidades-basicas/2-Funcionalidades-basicas-de-pandas/7_Tipos_de_datos.ipynb)
+
+En esta sección estudiamos como borrar los registros de un dataframe usando la función drop. 
+
+Tambien aprenderemos como copiar correctamete un dataframe para trabajar con él. En la rutina de preprocesamiento de datos es muy importante que se mantenga la fuente de datos original.
 
 ### Aplicando pandas
 ### Contenido extra
