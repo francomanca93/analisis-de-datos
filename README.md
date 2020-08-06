@@ -151,5 +151,13 @@ En esta sección se estudia cual es la **rutina de preprocesamiento de datos** c
 
 Vamos a utiilzar [Google DataSearch](https://datasetsearch.research.google.com/) para buscar datasets.
 
+### Estructuras de dataframes en detalle
+
+[Notebook del contenido](https://github.com/francomanca93/analisis-de-datos/blob/funcionalidades-basicas/2-Funcionalidades-basicas-de-pandas/7_Tipos_de_datos.ipynb)
+
+En esta sección estudiamos en detalle las diferentes variables que podemos encontrar en un mismo dataframe. Estas pueden ser categoricas, de tiempo, tipo texto, numericos (float e int).
+
+**Una ventaja de trabajar con variables categoricas es que reducimos el tamaño de uso de la memoria RAM y el tamaño del archivo en si.**
+
 ### Aplicando pandas
 ### Contenido extra
