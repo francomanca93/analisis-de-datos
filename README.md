@@ -143,5 +143,13 @@ Conclusiones:
 
 **Pickle** : Es práctico pero lento con grandes cantidades de datos.
 
+### Tipos de Variables que componen un data frame
+
+[Notebook del contenido](https://github.com/francomanca93/analisis-de-datos/blob/funcionalidades-basicas/2-Funcionalidades-basicas-de-pandas/7_Tipos_de_datos.ipynb)
+
+En esta sección se estudia cual es la **rutina de preprocesamiento de datos** con la que debemos comenzar a analizar un dataframe. Vamos a estudiar la composicion de las diferentes formatos de variables que podemos encontrar en un dataframe. 
+
+Vamos a utiilzar [Google DataSearch](https://datasetsearch.research.google.com/) para buscar datasets.
+
 ### Aplicando pandas
 ### Contenido extra
