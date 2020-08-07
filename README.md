@@ -36,6 +36,7 @@ Pandas es la librería de software libre para manipulación de datos con Python 
   - [Estructuras de dataframes en detalle](#Estructuras-de-dataframes-en-detalle)
   - [Borrar filas, columnas y copiar información](#Borrar-filas-columnas-y-copiar-información)
 - [Aplicando pandas](#Aplicando-pandas)
+  - [Funciones matemáticas](#Funciones-matemáticas)
 - [Contenido extra](#Contenido-extra)
 
 
@@ -170,5 +171,14 @@ En esta sección estudiamos como borrar los registros de un dataframe usando la 
 
 Tambien aprenderemos como copiar correctamete un dataframe para trabajar con él. En la rutina de preprocesamiento de datos es muy importante que se mantenga la fuente de datos original.
 
-### Aplicando pandas
+## Aplicando pandas
+
+### Funciones matemáticas
+
+[Notebook de contenido](https://github.com/francomanca93/analisis-de-datos/blob/aplicaciones/3-Aplicando-pandas/8_Funciones_matem%C3%A1ticas.ipynb)
+
+En esta sección se estudia como hacer **operaciones matematicas** en un dataframe, tambien a realizar **operaciones entre diferentes columnas** de un mismo dataframe y utilizar funciones matematicas de otra libreria como **numpy**.
+
+Utilizamos un dataframe descargado de [kaggle](https://www.kaggle.com/), el mismo se llama [London bike sharing dataset](https://www.kaggle.com/hmavrodiev/london-bike-sharing-dataset).
+
 ### Contenido extra
