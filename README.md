@@ -38,6 +38,7 @@ Pandas es la librería de software libre para manipulación de datos con Python 
 - [Aplicando pandas](#Aplicando-pandas)
   - [Funciones matemáticas](#Funciones-matemáticas)
   - [Funciones más complejas y lambdas](#Funciones-más-complejas-y-lambdas)
+  - [Múltiples índices](#Múltiples-índices)
 - [Contenido extra](#Contenido-extra)
 
 
@@ -189,5 +190,17 @@ Utilizamos un dataframe descargado de [kaggle](https://www.kaggle.com/), el mism
 En esat sección el objetivo es aprender a usar **funciones** mucho mas **avanzadas** (**creandolas**) en el dataframe utilizando **.apply()** y **lambda**. 
 
 En esta sección seguimos utilizando el dataset [London bike sharing dataset](https://www.kaggle.com/hmavrodiev/london-bike-sharing-dataset).
+
+### Múltiples índices
+
+[Notebook de contenido](https://github.com/francomanca93/analisis-de-datos/blob/aplicaciones/3-Aplicando-pandas/9_Multiples_indices.ipynb)
+
+En esta seccion aprendemos a como trabajar un dataframe con **múltiples índices**. 
+
+Un **índice** es un artificio que nos permite en pandas encontrar la ubicación de un archivo o dato. Son las coordenadas en una dataframe.
+
+La ventajas de utilizar multiples índices es que podemos aplicar **funciones matemáticas en diversos niveles**.
+
+Utilizamos un dataframe descargado de [world bank](https://data.worldbank.org/), buscamos [population](https://data.worldbank.org/indicator/SP.POP.TOTL).
 
 ### Contenido extra
