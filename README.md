@@ -39,6 +39,7 @@ Pandas es la librería de software libre para manipulación de datos con Python 
   - [Funciones matemáticas](#Funciones-matemáticas)
   - [Funciones más complejas y lambdas](#Funciones-más-complejas-y-lambdas)
   - [Múltiples índices](#Múltiples-índices)
+  - [Como trabajar con variables de tipo texto en Pandas](#Como-trabajar-con-variables-de-tipo-texto-en-Pandas)
 - [Contenido extra](#Contenido-extra)
 
 
@@ -202,5 +203,13 @@ Un **índice** es un artificio que nos permite en pandas encontrar la ubicación
 La ventajas de utilizar multiples índices es que podemos aplicar **funciones matemáticas en diversos niveles**.
 
 Utilizamos un dataframe descargado de [world bank](https://data.worldbank.org/), buscamos [population](https://data.worldbank.org/indicator/SP.POP.TOTL).
+
+### Como trabajar con variables de tipo texto en Pandas
+
+[Notebook de contenido](https://github.com/francomanca93/analisis-de-datos/blob/aplicaciones/3-Aplicando-pandas/10_Variables_tipo_texto.ipynb)
+
+Pandas cuenta con una gran funcionalidad a la hora de interactuar con texto, es super versatil si uno esta interesado en crear modelos de análisis de lenguaje natural.
+
+Cuando queremos manejar texto utilizamos la función **.str** y con esta podemos concatenar otros métodos para **hacer mayúsculas o minúsculas todo el texto**, y otras funcionalidades. Podemos **contar los caracteres** del string o **separar por palabras**. Tambien podemos **buscar coincidencias** y **crear filtros**. Inclusive podemos utilizar **expresiones regulares** para realizar busquedas mas complejas y exhaustivas.
 
 ### Contenido extra
