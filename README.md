@@ -40,6 +40,7 @@ Pandas es la librería de software libre para manipulación de datos con Python 
   - [Funciones más complejas y lambdas](#Funciones-más-complejas-y-lambdas)
   - [Múltiples índices](#Múltiples-índices)
   - [Como trabajar con variables de tipo texto en Pandas](#Como-trabajar-con-variables-de-tipo-texto-en-Pandas)
+  - [Concatenación de DataFrames, concat y append](#Concatenación-de-DataFrames,-concat-y-append)
 - [Contenido extra](#Contenido-extra)
 
 
@@ -211,5 +212,13 @@ Utilizamos un dataframe descargado de [world bank](https://data.worldbank.org/),
 Pandas cuenta con una gran funcionalidad a la hora de interactuar con texto, es super versatil si uno esta interesado en crear modelos de análisis de lenguaje natural.
 
 Cuando queremos manejar texto utilizamos la función **.str** y con esta podemos concatenar otros métodos para **hacer mayúsculas o minúsculas todo el texto**, y otras funcionalidades. Podemos **contar los caracteres** del string o **separar por palabras**. Tambien podemos **buscar coincidencias** y **crear filtros**. Inclusive podemos utilizar **expresiones regulares** para realizar busquedas mas complejas y exhaustivas.
+
+### Concatenación de DataFrames, concat y append
+
+[Notebook de contenido](https://github.com/francomanca93/analisis-de-datos/blob/aplicaciones/3-Aplicando-pandas/11_Concatenacion_de_DataFrames.ipynb)
+
+En este notebook se estudia como unir dos dataframes en uno solo. Esto es muy usual cuando se hace análisis de datos y a estos solo los podemos obtener en pequeños paquetes. Utilizando la función **for y append** podemos unirlos en unos solo rapidamente.
+
+Aprenderemos a como **concatenar vectores y matrices con numpy**, **concatenar filas y columnas (series) con pandas**, y como **concatenar dataframe con pandas**, esta última con **.concat()** y **.append()**.
 
 ### Contenido extra
