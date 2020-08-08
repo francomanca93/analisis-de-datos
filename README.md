@@ -42,6 +42,7 @@ Pandas es la librería de software libre para manipulación de datos con Python 
   - [Como trabajar con variables de tipo texto en Pandas](#Como-trabajar-con-variables-de-tipo-texto-en-Pandas)
   - [Concatenación de DataFrames, concat y append](#Concatenación-de-DataFrames,-concat-y-append)
   - [Merge de DataFrames](#Merge-de-DataFrames)
+  - [Lidiar con datos faltantes en DataFrames](#Lidiar-con-datos-faltantes-en-DataFrames)
 - [Contenido extra](#Contenido-extra)
 
 
@@ -232,6 +233,12 @@ Aprenderemos a como unificar dos dataframe utilizamos parámetros en común util
 En general cuando un **cientifico de datos** analiza muchas fuentes de información, las cuales son ideales unificarlas a través de los parámetros en común. Los conceptos relacionados con merge que se verán en **pandas** funciona exactamente igual en **SQL**
 
 En una base de datos, las tablas están o deben estar correlacionadas con llaves primarias y secundarias.
+
+### Lidiar con datos faltantes en DataFrames
+
+[Notebook de contenido](https://github.com/francomanca93/analisis-de-datos/blob/aplicaciones/3-Aplicando-pandas/13_Datos_faltantes_DataFrames.ipynb)
+
+Es muy común que nuestros DataFrames presenten datos faltantes, por eso en esta sección veremos como procesar nuestros **datos faltantes** en  DataFrames y en qué consisten los **objetos NaN** (Not a Number).
 
 
 ### Contenido extra
