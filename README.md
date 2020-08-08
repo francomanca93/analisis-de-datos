@@ -41,6 +41,7 @@ Pandas es la librería de software libre para manipulación de datos con Python 
   - [Múltiples índices](#Múltiples-índices)
   - [Como trabajar con variables de tipo texto en Pandas](#Como-trabajar-con-variables-de-tipo-texto-en-Pandas)
   - [Concatenación de DataFrames, concat y append](#Concatenación-de-DataFrames,-concat-y-append)
+  - [Merge de DataFrames](#Merge-de-DataFrames)
 - [Contenido extra](#Contenido-extra)
 
 
@@ -220,5 +221,17 @@ Cuando queremos manejar texto utilizamos la función **.str** y con esta podemos
 En este notebook se estudia como unir dos dataframes en uno solo. Esto es muy usual cuando se hace análisis de datos y a estos solo los podemos obtener en pequeños paquetes. Utilizando la función **for y append** podemos unirlos en unos solo rapidamente.
 
 Aprenderemos a como **concatenar vectores y matrices con numpy**, **concatenar filas y columnas (series) con pandas**, y como **concatenar dataframe con pandas**, esta última con **.concat()** y **.append()**.
+
+
+### Merge de DataFrames
+
+[Notebook de contenido](https://github.com/francomanca93/analisis-de-datos/blob/aplicaciones/3-Aplicando-pandas/12_Merge_de_DataFrames.ipynb)
+
+Aprenderemos a como unificar dos dataframe utilizamos parámetros en común utilizando la función **merge**. En merge veremos atributos como **inner**, **left**, **right**, **outer**.
+
+En general cuando un **cientifico de datos** analiza muchas fuentes de información, las cuales son ideales unificarlas a través de los parámetros en común. Los conceptos relacionados con merge que se verán en **pandas** funciona exactamente igual en **SQL**
+
+En una base de datos, las tablas están o deben estar correlacionadas con llaves primarias y secundarias.
+
 
 ### Contenido extra
