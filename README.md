@@ -43,6 +43,7 @@ Pandas es la librería de software libre para manipulación de datos con Python 
   - [Concatenación de DataFrames, concat y append](#Concatenación-de-DataFrames,-concat-y-append)
   - [Merge de DataFrames](#Merge-de-DataFrames)
   - [Lidiar con datos faltantes en DataFrames](#Lidiar-con-datos-faltantes-en-DataFrames)
+  - [Group by](#Group-by)
 - [Contenido extra](#Contenido-extra)
 
 
@@ -240,5 +241,12 @@ En una base de datos, las tablas están o deben estar correlacionadas con llaves
 
 Es muy común que nuestros DataFrames presenten datos faltantes, por eso en esta sección veremos como procesar nuestros **datos faltantes** en  DataFrames y en qué consisten los **objetos NaN** (Not a Number).
 
+### Group by
+
+[Notebook de contenido](https://github.com/francomanca93/analisis-de-datos/blob/aplicaciones/3-Aplicando-pandas/14_Group_by.ipynb)
+
+En esta sección aprenderemos a como agrupar nuestro dataframe **bajo una categoria** y sobre esta aplicar algunas **funciones estadísticas**. Tambien aprenderemos a **crear nuestra propia función y agregarla al estudio**.
+
+Vamos a utilizar una base de datos que se encuentra en una importante libreria de visualizacion de datos, **seaborn**. La misma se llama **diamonds**, es una base de datos que muestra diferentes caracteristicas de diamantes como quilates, tipo de corte, color, claridad, precio y dimensiones.
 
 ### Contenido extra
