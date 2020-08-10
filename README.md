@@ -45,6 +45,7 @@ Pandas es la librería de software libre para manipulación de datos con Python 
   - [Lidiar con datos faltantes en DataFrames](#Lidiar-con-datos-faltantes-en-DataFrames)
   - [Group by](#Group-by)
   - [Cómo lidiar con datos duplicados en Pandas](#Cómo-lidiar-con-datos-duplicados-en-Pandas)
+  - [Group by - Refozando su uso](#Group-by---Refozando-su-uso)
 - [Contenido extra](#Contenido-extra)
 
 
@@ -255,5 +256,15 @@ Vamos a utilizar una base de datos que se encuentra en una importante libreria d
 [Notebook de contenido](https://github.com/francomanca93/analisis-de-datos/blob/aplicaciones/3-Aplicando-pandas/15_Datos_duplicados_DataFrames.ipynb)
 
 Es muy usual que los registros de una base de datos aparezcan más de una vez, así que en esta sección veremos cómo pandas puede ayudarnos a lidiar con estos casos. Utilizaremos funciones como **duplicated()** y **diferentes parámetros** que esta puede tomar para trabajar con datos duplicados.
+
+### Group by - Refozando su uso 
+
+[Notebook de contenido](https://github.com/francomanca93/analisis-de-datos/blob/aplicaciones/3-Aplicando-pandas/16_Group_by_Extrayendo_valor_con_variables_categ%C3%B3ricas.ipynb)
+
+En esta sección veremos nuevamente Group by y rezorzaremos con otro dataframe el uso de esta función. Veremos como agrupar nuetro dataframe bajo una categoria y sobre esta aplicar algunas funciones estadísticas. 
+
+Lo principal de esta sección es como **extraer valor** de las **variables numericas** con las funcion **groupby** y **aggregate**, usando categorias. 
+
+El dataset sobre el que trabajaremos es sobre **propinas**, de la librería **seaborn**. En él aparecen parámetros sobre la cuenta, la propina que dieron las personas, si fue un hombre o mujer, si era fumador, tambien si como era el día (soleado, nublado, etc), el horario de la misma (desayuno, almuerzo, cena, etc) y cuantas personas compartian la comida. 
 
 ### Contenido extra
