@@ -47,6 +47,7 @@ Pandas es la librería de software libre para manipulación de datos con Python 
   - [Cómo lidiar con datos duplicados en Pandas](#Cómo-lidiar-con-datos-duplicados-en-Pandas)
   - [Group by - Refozando su uso](#Group-by---Refozando-su-uso)
   - [Group by - extraer valor con variables categóricas](#Group-by---extraer-valor-con-variables-categóricas)
+  - [Tablas dinámicas con Pivot Table](#Tablas-dinámicas-con-Pivot-Table)
 - [Contenido extra](#Contenido-extra)
 
 
@@ -277,5 +278,11 @@ En la seccion anterior se aprendio como **extraer valor** de las **variables num
 En esta seccion se vera como **extraer valor** de los datos  de las **variables categoricas**.
 
 Haremos **conteo** y un **analisis** con las **variables categoricas**, aplicaremos funciones **lambdas**, **transformaremos** **variables numericas en categorica**, y **extraeremos valor** de estos datos nuevos creados.
+
+### Tablas dinámicas con Pivot Table
+
+[Notebook de contenido](https://github.com/francomanca93/analisis-de-datos/blob/aplicaciones/3-Aplicando-pandas/16_Group_by_Extrayendo_valor_con_variables_categ%C3%B3ricas.ipynb)
+
+En esta sección veremos como crear **tablas dinámicas**. Para eso pandas cuenta con una función llamada **pivot_table**, esta nos permite extraer, cuando tenemos variables categoricas, gran informacion y valor de nuestro dataframe.
 
 ### Contenido extra
