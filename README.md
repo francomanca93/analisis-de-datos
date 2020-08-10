@@ -46,6 +46,7 @@ Pandas es la librería de software libre para manipulación de datos con Python 
   - [Group by](#Group-by)
   - [Cómo lidiar con datos duplicados en Pandas](#Cómo-lidiar-con-datos-duplicados-en-Pandas)
   - [Group by - Refozando su uso](#Group-by---Refozando-su-uso)
+  - [Group by - extraer valor con variables categóricas](#Group-by---extraer-valor-con-variables-categóricas)
 - [Contenido extra](#Contenido-extra)
 
 
@@ -266,5 +267,15 @@ En esta sección veremos nuevamente Group by y rezorzaremos con otro dataframe e
 Lo principal de esta sección es como **extraer valor** de las **variables numericas** con las funcion **groupby** y **aggregate**, usando categorias. 
 
 El dataset sobre el que trabajaremos es sobre **propinas**, de la librería **seaborn**. En él aparecen parámetros sobre la cuenta, la propina que dieron las personas, si fue un hombre o mujer, si era fumador, tambien si como era el día (soleado, nublado, etc), el horario de la misma (desayuno, almuerzo, cena, etc) y cuantas personas compartian la comida. 
+
+### Group by - extraer valor con variables categóricas
+
+[Notebook de contenido](https://github.com/francomanca93/analisis-de-datos/blob/aplicaciones/3-Aplicando-pandas/16_Group_by_Extrayendo_valor_con_variables_categ%C3%B3ricas.ipynb)
+
+En la seccion anterior se aprendio como **extraer valor** de las **variables numericas** con las funcion groupby y aggregate, usando categorias. 
+
+En esta seccion se vera como **extraer valor** de los datos  de las **variables categoricas**.
+
+Haremos **conteo** y un **analisis** con las **variables categoricas**, aplicaremos funciones **lambdas**, **transformaremos** **variables numericas en categorica**, y **extraeremos valor** de estos datos nuevos creados.
 
 ### Contenido extra
