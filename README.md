@@ -48,6 +48,7 @@ Pandas es la librería de software libre para manipulación de datos con Python 
   - [Group by - Refozando su uso](#Group-by---Refozando-su-uso)
   - [Group by - extraer valor con variables categóricas](#Group-by---extraer-valor-con-variables-categóricas)
   - [Tablas dinámicas con Pivot Table](#Tablas-dinámicas-con-Pivot-Table)
+  - [Series de Tiempo](#Series-de-Tiempo)
 - [Contenido extra](#Contenido-extra)
 
 
@@ -284,5 +285,15 @@ Haremos **conteo** y un **analisis** con las **variables categoricas**, aplicare
 [Notebook de contenido](https://github.com/francomanca93/analisis-de-datos/blob/aplicaciones/3-Aplicando-pandas/16_Group_by_Extrayendo_valor_con_variables_categ%C3%B3ricas.ipynb)
 
 En esta sección veremos como crear **tablas dinámicas**. Para eso pandas cuenta con una función llamada **pivot_table**, esta nos permite extraer, cuando tenemos variables categoricas, gran informacion y valor de nuestro dataframe.
+
+### Series de Tiempo
+
+[Notebook de contenido](https://github.com/francomanca93/analisis-de-datos/blob/aplicaciones/3-Aplicando-pandas/17_Series_de_tiempo_y_visualizacioes.ipynb)
+
+En las lecturas previas se aprendio a como trabajar con **variables nulas** y a como darle formato a las **variables de tipo tiempo**. 
+
+En esta sección se vera como utilizar las herramientas anteriores y como trabajar con **series de tiempo**. Daremos **formato de tiempo** a una columna y la tomaremos como **indice de nuestro dataframe**, agruparemos un nuevo dataframe del inicial usando **groupby**, **agregaremos datos faltantes** y finalmente extraeremos **valor estadístico** de nuestro dataframe.
+
+Se utilizará una base de dato que tiene información sobre el **coronavirus**. La misma la podemos encontrar en el siguiente enlace a la base de datos de [covid-19](https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset?select=covid_19_data.csv).
 
 ### Contenido extra
