@@ -49,6 +49,7 @@ Pandas es la librería de software libre para manipulación de datos con Python 
   - [Group by - extraer valor con variables categóricas](#Group-by---extraer-valor-con-variables-categóricas)
   - [Tablas dinámicas con Pivot Table](#Tablas-dinámicas-con-Pivot-Table)
   - [Series de Tiempo](#Series-de-Tiempo)
+  - [Series de Tiempo - variables nulas](#Series-de-Tiempo---variables-nulas)
 - [Contenido extra](#Contenido-extra)
 
 
@@ -295,5 +296,18 @@ En las lecturas previas se aprendio a como trabajar con **variables nulas** y a 
 En esta sección se vera como utilizar las herramientas anteriores y como trabajar con **series de tiempo**. Daremos **formato de tiempo** a una columna y la tomaremos como **indice de nuestro dataframe**, agruparemos un nuevo dataframe del inicial usando **groupby**, **agregaremos datos faltantes** y finalmente extraeremos **valor estadístico** de nuestro dataframe.
 
 Se utilizará una base de dato que tiene información sobre el **coronavirus**. La misma la podemos encontrar en el siguiente enlace a la base de datos de [covid-19](https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset?select=covid_19_data.csv).
+
+### Series de Tiempo - variables nulas
+
+[Notebook de contenido](https://github.com/francomanca93/analisis-de-datos/blob/aplicaciones/3-Aplicando-pandas/17_Series_de_tiempo_y_visualizacioes.ipynb)
+
+Vamos a ver en mas profundidad las **variables nulas** y como trabajar con ellas. 
+
+Tambien trabajaremos con **graficos simples**. Utilizaremos herramientas de pandas para hacer analisis de series de tiempo, **como agrupar** cuando tenemos columnas de tipo tiempo, utilizando una función llamada **Grouper** y veremos la importancia de trabajar con **intervalos de tiempo** y calcular **suavizados de curvas**, usando **rolling()**.
+
+En general en la naturaleza haremos este tipo de analisis por ejemplo en:
+* temperaturas a lo largo de un año.
+* cuando realizamos proyecciones financieras.
+* en nuestro caso, analisis de casos de COVID-19 a lo largo del tiempo desde que comenzo.
 
 ### Contenido extra
