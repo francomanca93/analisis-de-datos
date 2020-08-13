@@ -58,7 +58,8 @@ Pandas es la librería de software libre para manipulación de datos con Python 
     - [Series de Tiempo](#Series-de-Tiempo)
     - [Series de Tiempo - variables nulas](#Series-de-Tiempo---variables-nulas)
     - [Visualización y graficación de datos](#Visualización-y-graficación-de-datos)
-- [Contenido extra](#Contenido-extra)
+- [Proyecto](#Proyecto)
+  - [Iniciando una rutina típica de manejo de datos](#Iniciando-una-rutina-típica-de-manejo-de-datos)
 
 
 ## Comenzando con pandas
@@ -352,4 +353,17 @@ En general en la naturaleza haremos este tipo de analisis por ejemplo en:
 
 Tomaremos los datos de un **pais determinado** y **analizaremos sus casos** gracias a groupby. Luego **graficaremos** utilizando diferentes [**plot de pandas**](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.html?highlight=plot) y matplotlib.
 
-### Contenido extra
+## Proyecto
+
+[Notebook del proyecto](https://github.com/francomanca93/analisis-de-datos/blob/proyecto/Proyecto_Cambio_clim%C3%A1tico.ipynb)
+
+Utilizaremos una base de datos que habla sobre el cambio climático, obtenida de Kaggle. Esta se llama [Global Land Temperature by Country](https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data?select=GlobalLandTemperaturesByCountry.csv). 
+
+### Iniciando una rutina típica de manejo de datos
+
+En este proyecto se verá como analizar los datasets mediante una rutina practica en donde utilizaremos las funciones aprendidas. 
+
+En esta primer instancia utilizaremos el dataset [Global Land Temperature by Country](https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data?select=GlobalLandTemperaturesByCountry.csv).
+
+Una vez obtenidos los datos hay que hacer preprocesamiento y limpieza de datos, hay que consolidar los archivos en una base simple para analisis y extraer los insight. Para los insights utilizaremos siempre gráficas.
+
