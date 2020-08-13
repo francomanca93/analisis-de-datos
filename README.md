@@ -50,6 +50,7 @@ Pandas es la librería de software libre para manipulación de datos con Python 
   - [Tablas dinámicas con Pivot Table](#Tablas-dinámicas-con-Pivot-Table)
   - [Series de Tiempo](#Series-de-Tiempo)
   - [Series de Tiempo - variables nulas](#Series-de-Tiempo---variables-nulas)
+  - [Visualización y graficación de datos](#Visualización-y-graficación-de-datos)
 - [Contenido extra](#Contenido-extra)
 
 
@@ -309,5 +310,11 @@ En general en la naturaleza haremos este tipo de analisis por ejemplo en:
 * temperaturas a lo largo de un año.
 * cuando realizamos proyecciones financieras.
 * en nuestro caso, analisis de casos de COVID-19 a lo largo del tiempo desde que comenzo.
+
+### Visualización y graficación de datos 
+
+[Notebook de contenido](https://github.com/francomanca93/analisis-de-datos/blob/aplicaciones/3-Aplicando-pandas/17_Series_de_tiempo_y_visualizacioes.ipynb)
+
+Tomaremos los datos de un **pais determinado** y **analizaremos sus casos** gracias a groupby. Luego **graficaremos** utilizando diferentes [**plot de pandas**](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.html?highlight=plot) y matplotlib.
 
 ### Contenido extra
