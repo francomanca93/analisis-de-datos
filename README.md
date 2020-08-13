@@ -169,6 +169,8 @@ En esta sección se estudia cual es la **rutina de preprocesamiento de datos** c
 
 Vamos a utiilzar [Google DataSearch](https://datasetsearch.research.google.com/) para buscar datasets.
 
+Utilizaremos un datasets de meteoritos de la NASA llamado [Meteorite Landings](https://data.nasa.gov/Space-Science/Meteorite-Landings/gh4g-9sfh).
+
 ### Estructuras de dataframes en detalle
 
 [Notebook del contenido](https://github.com/francomanca93/analisis-de-datos/blob/funcionalidades-basicas/2-Funcionalidades-basicas-de-pandas/7_Tipos_de_datos.ipynb)
