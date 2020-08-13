@@ -32,25 +32,32 @@ Pandas es la librería de software libre para manipulación de datos con Python 
   - [Diferentes formatos para datasets](#Diferentes-formatos-para-datasets)
 - [Funcionalidades básicas y esenciales de pandas](#Funcionalidades-básicas-y-esenciales-de-pandas)
   - [Formatos de lectura para cargar y guardar DataFrames](#Formatos-de-lectura-para-cargar-y-guardar-DataFrames)
-  - [Tipos de Variables que componen un data frame](#Tipos-de-variables-que-componen-un-data-frame)
-  - [Estructuras de dataframes en detalle](#Estructuras-de-dataframes-en-detalle)
-  - [Borrar filas, columnas y copiar información](#Borrar-filas-columnas-y-copiar-información)
+  - [Meteorite Landings Dataset](#Meteorite-Landings-Dataset)
+    - [Tipos de Variables que componen un data frame](#Tipos-de-variables-que-componen-un-data-frame)
+    - [Estructuras de dataframes en detalle](#Estructuras-de-dataframes-en-detalle)
+    - [Borrar filas, columnas y copiar información](#Borrar-filas-columnas-y-copiar-información)
 - [Aplicando pandas](#Aplicando-pandas)
-  - [Funciones matemáticas](#Funciones-matemáticas)
-  - [Funciones más complejas y lambdas](#Funciones-más-complejas-y-lambdas)
-  - [Múltiples índices](#Múltiples-índices)
-  - [Como trabajar con variables de tipo texto en Pandas](#Como-trabajar-con-variables-de-tipo-texto-en-Pandas)
-  - [Concatenación de DataFrames, concat y append](#Concatenación-de-DataFrames,-concat-y-append)
-  - [Merge de DataFrames](#Merge-de-DataFrames)
-  - [Lidiar con datos faltantes en DataFrames](#Lidiar-con-datos-faltantes-en-DataFrames)
-  - [Group by](#Group-by)
-  - [Cómo lidiar con datos duplicados en Pandas](#Cómo-lidiar-con-datos-duplicados-en-Pandas)
-  - [Group by - Refozando su uso](#Group-by---Refozando-su-uso)
-  - [Group by - extraer valor con variables categóricas](#Group-by---extraer-valor-con-variables-categóricas)
-  - [Tablas dinámicas con Pivot Table](#Tablas-dinámicas-con-Pivot-Table)
-  - [Series de Tiempo](#Series-de-Tiempo)
-  - [Series de Tiempo - variables nulas](#Series-de-Tiempo---variables-nulas)
-  - [Visualización y graficación de datos](#Visualización-y-graficación-de-datos)
+  - [London bike sharing dataset](#London-bike-sharing-dataset)
+    - [Funciones matemáticas](#Funciones-matemáticas)
+    - [Funciones más complejas y lambdas](#Funciones-más-complejas-y-lambdas)
+  - [Population dataset](#Population-dataset)
+    - [Múltiples índices](#Múltiples-índices)
+  - [Datasets propios](#Datasets-propios)
+    - [Como trabajar con variables de tipo texto en Pandas](#Como-trabajar-con-variables-de-tipo-texto-en-Pandas)
+    - [Concatenación de DataFrames, concat y append](#Concatenación-de-DataFrames,-concat-y-append)
+    - [Merge de DataFrames](#Merge-de-DataFrames)
+    - [Lidiar con datos faltantes en DataFrames](#Lidiar-con-datos-faltantes-en-DataFrames)
+    - [Cómo lidiar con datos duplicados en Pandas](#Cómo-lidiar-con-datos-duplicados-en-Pandas)
+  - [Diamond dataset](#Diamond-dataset)
+    - [Group by](#Group-by)
+  - [Tips dataset](#Tips-dataset)
+    - [Group by - Refozando su uso](#Group-by---Refozando-su-uso)
+    - [Group by - extraer valor con variables categóricas](#Group-by---extraer-valor-con-variables-categóricas)
+    - [Tablas dinámicas con Pivot Table](#Tablas-dinámicas-con-Pivot-Table)
+  - [COVID-19 dataset](#COVID-19-dataset)
+    - [Series de Tiempo](#Series-de-Tiempo)
+    - [Series de Tiempo - variables nulas](#Series-de-Tiempo---variables-nulas)
+    - [Visualización y graficación de datos](#Visualización-y-graficación-de-datos)
 - [Contenido extra](#Contenido-extra)
 
 
@@ -161,15 +168,17 @@ Conclusiones:
 
 **Pickle** : Es práctico pero lento con grandes cantidades de datos.
 
+## Meteorite Landings Dataset
+
+Utilizaremos un datasets de meteoritos de la NASA llamado [Meteorite Landings](https://data.nasa.gov/Space-Science/Meteorite-Landings/gh4g-9sfh) para estudiar **tipos de variables**, **estructuras de dataframes**, **borrar y copiar información de dataframes**.
+
 ### Tipos de Variables que componen un data frame
 
 [Notebook del contenido](https://github.com/francomanca93/analisis-de-datos/blob/funcionalidades-basicas/2-Funcionalidades-basicas-de-pandas/7_Tipos_de_datos.ipynb)
 
 En esta sección se estudia cual es la **rutina de preprocesamiento de datos** con la que debemos comenzar a analizar un dataframe. Vamos a estudiar la composicion de las diferentes formatos de variables que podemos encontrar en un dataframe. 
 
-Vamos a utiilzar [Google DataSearch](https://datasetsearch.research.google.com/) para buscar datasets.
-
-Utilizaremos un datasets de meteoritos de la NASA llamado [Meteorite Landings](https://data.nasa.gov/Space-Science/Meteorite-Landings/gh4g-9sfh).
+Vamos a utiilzar [Google DataSearch](https://datasetsearch.research.google.com/) para buscar datasets. Utilizaremos un dataset de meteoritos de la NASA llamado [Meteorite Landings](https://data.nasa.gov/Space-Science/Meteorite-Landings/gh4g-9sfh).
 
 ### Estructuras de dataframes en detalle
 
@@ -189,6 +198,10 @@ Tambien aprenderemos como copiar correctamete un dataframe para trabajar con él
 
 ## Aplicando pandas
 
+## London bike sharing dataset
+
+Utilizaremos un dataframe descargado de [kaggle](https://www.kaggle.com/), el mismo se llama [London bike sharing dataset](https://www.kaggle.com/hmavrodiev/london-bike-sharing-dataset) para estudiar funciones matemáticas, funciones complejas y lambdas aplicados a datasets.
+
 ### Funciones matemáticas
 
 [Notebook de contenido](https://github.com/francomanca93/analisis-de-datos/blob/aplicaciones/3-Aplicando-pandas/8_Funciones_matem%C3%A1ticas.ipynb)
@@ -205,6 +218,10 @@ En esat sección el objetivo es aprender a usar **funciones** mucho mas **avanza
 
 En esta sección seguimos utilizando el dataset [London bike sharing dataset](https://www.kaggle.com/hmavrodiev/london-bike-sharing-dataset).
 
+## Population dataset
+
+Utilizamos un dataset descargado de [world bank](https://data.worldbank.org/), buscamos [population](https://data.worldbank.org/indicator/SP.POP.TOTL), con el estudiaremos **múltiples índices**.
+
 ### Múltiples índices
 
 [Notebook de contenido](https://github.com/francomanca93/analisis-de-datos/blob/aplicaciones/3-Aplicando-pandas/9_Multiples_indices.ipynb)
@@ -216,6 +233,10 @@ Un **índice** es un artificio que nos permite en pandas encontrar la ubicación
 La ventajas de utilizar multiples índices es que podemos aplicar **funciones matemáticas en diversos niveles**.
 
 Utilizamos un dataframe descargado de [world bank](https://data.worldbank.org/), buscamos [population](https://data.worldbank.org/indicator/SP.POP.TOTL).
+
+## Datasets propios
+
+En las siguientes secciones se crearán datasets para el fin con el cual se estudien. Veremos **como trabajar con variables de tipo texto**, **concatenación**, **merge**, **datos faltantes**.
 
 ### Como trabajar con variables de tipo texto en Pandas
 
@@ -250,6 +271,16 @@ En una base de datos, las tablas están o deben estar correlacionadas con llaves
 
 Es muy común que nuestros DataFrames presenten datos faltantes, por eso en esta sección veremos como procesar nuestros **datos faltantes** en  DataFrames y en qué consisten los **objetos NaN** (Not a Number).
 
+### Cómo lidiar con datos duplicados en Pandas 
+
+[Notebook de contenido](https://github.com/francomanca93/analisis-de-datos/blob/aplicaciones/3-Aplicando-pandas/15_Datos_duplicados_DataFrames.ipynb)
+
+Es muy usual que los registros de una base de datos aparezcan más de una vez, así que en esta sección veremos cómo pandas puede ayudarnos a lidiar con estos casos. Utilizaremos funciones como **duplicated()** y **diferentes parámetros** que esta puede tomar para trabajar con datos duplicados.
+
+## Diamond dataset
+
+Vamos a utilizar una base de datos que se encuentra en una importante libreria de visualizacion de datos, **seaborn**. La misma se llama **diamonds dataset** para estudiar **groupby**.
+
 ### Group by
 
 [Notebook de contenido](https://github.com/francomanca93/analisis-de-datos/blob/aplicaciones/3-Aplicando-pandas/14_Group_by.ipynb)
@@ -258,11 +289,9 @@ En esta sección aprenderemos a como agrupar nuestro dataframe **bajo una catego
 
 Vamos a utilizar una base de datos que se encuentra en una importante libreria de visualizacion de datos, **seaborn**. La misma se llama **diamonds**, es una base de datos que muestra diferentes caracteristicas de diamantes como quilates, tipo de corte, color, claridad, precio y dimensiones.
 
-### Cómo lidiar con datos duplicados en Pandas 
+## Tips dataset
 
-[Notebook de contenido](https://github.com/francomanca93/analisis-de-datos/blob/aplicaciones/3-Aplicando-pandas/15_Datos_duplicados_DataFrames.ipynb)
-
-Es muy usual que los registros de una base de datos aparezcan más de una vez, así que en esta sección veremos cómo pandas puede ayudarnos a lidiar con estos casos. Utilizaremos funciones como **duplicated()** y **diferentes parámetros** que esta puede tomar para trabajar con datos duplicados.
+El dataset sobre el que trabajaremos es sobre **tips (propinas)**, de la librería **seaborn**. Con el estudiaremos **groupby**, **refozando su uso** y **extrayendo valor de variables categoricas**, y **tablas dinámicas**.
 
 ### Group by - Refozando su uso 
 
@@ -289,6 +318,10 @@ Haremos **conteo** y un **analisis** con las **variables categoricas**, aplicare
 [Notebook de contenido](https://github.com/francomanca93/analisis-de-datos/blob/aplicaciones/3-Aplicando-pandas/16_Group_by_Extrayendo_valor_con_variables_categ%C3%B3ricas.ipynb)
 
 En esta sección veremos como crear **tablas dinámicas**. Para eso pandas cuenta con una función llamada **pivot_table**, esta nos permite extraer, cuando tenemos variables categoricas, gran informacion y valor de nuestro dataframe.
+
+## COVID-19 dataset
+
+Se utilizará una base de dato que tiene información sobre el **coronavirus**. La misma la podemos encontrar en el siguiente enlace a la base de datos de [covid-19](https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset?select=covid_19_data.csv). Con él estudiaremos **series de tiempo**, como manejar **variables nulas** es estas series y como **visualizar y graficar datos**.
 
 ### Series de Tiempo
 
