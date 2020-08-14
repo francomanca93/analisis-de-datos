@@ -60,6 +60,7 @@ Pandas es la librería de software libre para manipulación de datos con Python 
     - [Visualización y graficación de datos](#Visualización-y-graficación-de-datos)
 - [Proyecto](#Proyecto)
   - [Iniciando una rutina típica de manejo de datos](#Iniciando-una-rutina-típica-de-manejo-de-datos)
+  - [Preprocesamiento de datos - terminando de preparar y limpiar los datasets](#Preprocesamiento-de-datos---terminando-de-preparar-y-limpiar-los-datasets)
 
 
 ## Comenzando con pandas
@@ -357,7 +358,14 @@ Tomaremos los datos de un **pais determinado** y **analizaremos sus casos** grac
 
 [Notebook del proyecto](https://github.com/francomanca93/analisis-de-datos/blob/proyecto/Proyecto_Cambio_clim%C3%A1tico.ipynb)
 
-Utilizaremos una base de datos que habla sobre el cambio climático, obtenida de Kaggle. Esta se llama [Global Land Temperature by Country](https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data?select=GlobalLandTemperaturesByCountry.csv). 
+Las bases de datos que utilizaremos son las siguientes:
+
+* Base datos que habla sobre el cambio climático, [Global Land Temperature by Country](https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data?select=GlobalLandTemperaturesByCountry.csv)
+* Cantidad de emision de CO2 en kilotones, [CO2 (kt)](https://data.worldbank.org/indicator/EN.ATM.CO2E.KT).
+* Cantidad de bosques deforestados en km2, [Forest (km2)](https://data.worldbank.org/indicator/AG.LND.FRST.K2).
+* Cantidad de agricultura por pais en km2, [Agricultura (km2)](https://data.worldbank.org/indicator/AG.LND.AGRI.K2).
+* La poblacion de cada uno de los paises, [Population (7mM)](https://data.worldbank.org/indicator/SP.POP.TOTL).
+* Cantidad de energia electrica consumida en kWh per capita, [Electric power consumption (kWh per capita)](https://data.worldbank.org/indicator/EG.USE.ELEC.KH.PC).
 
 ### Iniciando una rutina típica de manejo de datos
 
@@ -367,3 +375,12 @@ En esta primer instancia utilizaremos el dataset [Global Land Temperature by Cou
 
 Una vez obtenidos los datos hay que hacer preprocesamiento y limpieza de datos, hay que consolidar los archivos en una base simple para analisis y extraer los insight. Para los insights utilizaremos siempre gráficas.
 
+### Preprocesamiento de datos - terminando de preparar y limpiar los datasets
+
+En esta segunda instancia utiilzaremos datasets relacionados con el cambio climatico. Podemos encontrar todos los datasets en el siguiente enlace, [Topic](https://data.worldbank.org/topic/climate-change). 
+
+Los los que utilizaremos son: [CO2 (kt)](https://data.worldbank.org/indicator/EN.ATM.CO2E.KT), [forest (km2)](https://data.worldbank.org/indicator/AG.LND.FRST.K2), [agricultura (km2)](https://data.worldbank.org/indicator/AG.LND.AGRI.K2), [population (7mM)](https://data.worldbank.org/indicator/SP.POP.TOTL) y [electric power consumption (kWh per capita)](https://data.worldbank.org/indicator/EG.USE.ELEC.KH.PC).
+
+En esta sección se realizará el preprocesamiento de datos de los datasets mencionados, esto va desde **preparar los datasets**, **limpiarlos**, **transformarlos** y **unificarlos**. Este es el trabajo que nos lleva mas tiempo.
+
+Normalmente este trabajo para un cientifico de datos lleva a consumir entre un **60% y 70% del tiempo de trabajo**. Luego de esto viene la parte mas interesante, el **análisis**.
