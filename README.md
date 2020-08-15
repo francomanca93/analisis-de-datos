@@ -58,7 +58,7 @@ Pandas es la librería de software libre para manipulación de datos con Python 
     - [Series de Tiempo](#Series-de-Tiempo)
     - [Series de Tiempo - variables nulas](#Series-de-Tiempo---variables-nulas)
     - [Visualización y graficación de datos](#Visualización-y-graficación-de-datos)
-- [Proyecto](#Proyecto)
+- [Proyecto - Cambio climático](#Proyecto---Cambio-climático)
   - [Iniciando una rutina típica de manejo de datos](#Iniciando-una-rutina-típica-de-manejo-de-datos)
   - [Preprocesamiento de datos - terminando de preparar y limpiar los datasets](#Preprocesamiento-de-datos---terminando-de-preparar-y-limpiar-los-datasets)
   - [Análisis de datos](#Análisis-de-datos)
@@ -355,11 +355,11 @@ En general en la naturaleza haremos este tipo de analisis por ejemplo en:
 
 Tomaremos los datos de un **pais determinado** y **analizaremos sus casos** gracias a groupby. Luego **graficaremos** utilizando diferentes [**plot de pandas**](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.html?highlight=plot) y matplotlib.
 
-## Proyecto
+## Proyecto - Cambio climático
 
 [Notebook del proyecto](https://github.com/francomanca93/analisis-de-datos/blob/proyecto/Proyecto_Cambio_clim%C3%A1tico.ipynb)
 
-Las bases de datos que utilizaremos son las siguientes:
+En este proyecto juntaremos diversas bases de datos para hacer un estudio del cambio climatico. Las bases de datos que utilizaremos son las siguientes:
 
 * Base datos que habla sobre el cambio climático, [Global Land Temperature by Country](https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data?select=GlobalLandTemperaturesByCountry.csv)
 * Cantidad de emision de CO2 en kilotones, [CO2 (kt)](https://data.worldbank.org/indicator/EN.ATM.CO2E.KT).
