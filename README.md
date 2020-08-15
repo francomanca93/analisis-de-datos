@@ -61,6 +61,7 @@ Pandas es la librería de software libre para manipulación de datos con Python 
 - [Proyecto](#Proyecto)
   - [Iniciando una rutina típica de manejo de datos](#Iniciando-una-rutina-típica-de-manejo-de-datos)
   - [Preprocesamiento de datos - terminando de preparar y limpiar los datasets](#Preprocesamiento-de-datos---terminando-de-preparar-y-limpiar-los-datasets)
+  - [Análisis de datos](#Análisis-de-datos)
 
 
 ## Comenzando con pandas
@@ -384,3 +385,9 @@ Los los que utilizaremos son: [CO2 (kt)](https://data.worldbank.org/indicator/EN
 En esta sección se realizará el preprocesamiento de datos de los datasets mencionados, esto va desde **preparar los datasets**, **limpiarlos**, **transformarlos** y **unificarlos**. Este es el trabajo que nos lleva mas tiempo.
 
 Normalmente este trabajo para un cientifico de datos lleva a consumir entre un **60% y 70% del tiempo de trabajo**. Luego de esto viene la parte mas interesante, el **análisis**.
+
+### Análisis de datos
+
+Lo que se hizo fue preparar una serie de dataframes y condensarlos en uno solo, listo para ser analizado. En esta sección veremos diversas funciones de pandas que nos permiten **extraer insight** de una forma muy rápida. 
+
+Se estudia como **graficar diferentes variables en un unico gráfico**, como podemos ver la **correlacion entre variables** con un **heatmap** o mapa de colores, observaremos las **correlaciones con scatter plot** o graficos de puntos y finalmente es estudiarán **grafico de coordenadas paralelas**, para **comparar diferentes variables**. 
